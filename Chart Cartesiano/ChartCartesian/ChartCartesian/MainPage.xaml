@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dxc="http://schemas.devexpress.com/xamarin/2014/forms/charts"
+             xmlns:local="clr-namespace:ChartCartesian"
+             x:Class="ChartCartesian.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:MainViewModel/>
+    </ContentPage.BindingContext>
+    <dxc:ChartView x:Name="chart">
+        <dxc:ChartView.AxisX>
+            <dxc:DateTimeAxisX MeasureUnit="Year" 
+                           GridAlignment="Year" 
+                           GridSpacing="1"/>
+        </dxc:ChartView.AxisX>
+        <dxc:ChartView.AxisY>
+            <dxc:NumericAxisY>
+                <dxc:NumericAxisY.Title>
+                    <dxc:AxisTitle Text="Trillions of US$">
+                        <dxc:AxisTitle.Style>
+                            <dxc:TitleStyle>
+                                <dxc:TitleStyle.TextStyle>
+                                    <dxc:TextStyle Size="16"/>
+                                </dxc:TitleStyle.TextStyle>
+                            </dxc:TitleStyle>
+                        </dxc:AxisTitle.Style>
+                    </dxc:AxisTitle>
+                </dxc:NumericAxisY.Title>
+                <dxc:NumericAxisY.Label>
+                    <dxc:AxisLabel TextFormat="#.#" Position="Inside"/>
+                </dxc:NumericAxisY.Label>
+            </dxc:NumericAxisY>
+        </dxc:ChartView.AxisY>
+        <dxc:ChartView.Series>
+            <dxc:LineSeries DisplayName="{Binding GdpValueForUSA.CountryName}">
+                <dxc:LineSeries.Data>
+                    <dxc:SeriesDataAdapter DataSource="{Binding GdpValueForUSA.Values}"
+                                           ArgumentDataMember="Year">
+                        <dxc:ValueDataMember Type="Value" Member="Value"/>
+                    </dxc:SeriesDataAdapter>
+                </dxc:LineSeries.Data>
+            </dxc:LineSeries>
+
+            <dxc:LineSeries DisplayName="{Binding GdpValueForChina.CountryName}">
+                <dxc:LineSeries.Data>
+                    <dxc:SeriesDataAdapter DataSource="{Binding GdpValueForChina.Values}"
+                                           ArgumentDataMember="Year">
+                        <dxc:ValueDataMember Type="Value" Member="Value"/>
+                    </dxc:SeriesDataAdapter>
+                </dxc:LineSeries.Data>
+            </dxc:LineSeries>
+
+            <dxc:LineSeries DisplayName="{Binding GdpValueForJapan.CountryName}">
+                <dxc:LineSeries.Data>
+                    <dxc:SeriesDataAdapter DataSource="{Binding GdpValueForJapan.Values}"
+                                           ArgumentDataMember="Year">
+                        <dxc:ValueDataMember Type="Value" Member="Value"/>
+                    </dxc:SeriesDataAdapter>
+                </dxc:LineSeries.Data>
+            </dxc:LineSeries>
+        </dxc:ChartView.Series>
+        <dxc:ChartView.Legend>
+            <dxc:Legend VerticalPosition="TopOutside" 
+                    HorizontalPosition="Center" 
+                    Orientation="LeftToRight"/>
+        </dxc:ChartView.Legend>
+    </dxc:ChartView>
+</ContentPage>

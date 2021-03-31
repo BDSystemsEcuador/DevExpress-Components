@@ -1,0 +1,17 @@
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\bin\Debug\netstandard2.0\ChartCartesian.deps.json
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\bin\Debug\netstandard2.0\ChartCartesian.dll
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\bin\Debug\netstandard2.0\ref\ChartCartesian.dll
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\bin\Debug\netstandard2.0\ChartCartesian.pdb
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\bin\Debug\netstandard2.0\DevExpress.XamarinForms.Charts.dll
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\bin\Debug\netstandard2.0\DevExpress.XamarinForms.Core.dll
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ChartCartesian.csprojAssemblyReference.cache
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ChartCartesian.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ChartCartesian.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ChartCartesian.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ChartCartesian.csproj.CopyComplete
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ChartCartesian.dll
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ref\ChartCartesian.dll
+C:\Users\Daniel\Desktop\Proyectos\ChartCartesian\ChartCartesian\ChartCartesian\obj\Debug\netstandard2.0\ChartCartesian.pdb

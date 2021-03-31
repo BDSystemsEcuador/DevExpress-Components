@@ -1,0 +1,17 @@
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\bin\Debug\netstandard2.0\Charts.deps.json
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\bin\Debug\netstandard2.0\Charts.dll
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\bin\Debug\netstandard2.0\ref\Charts.dll
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\bin\Debug\netstandard2.0\Charts.pdb
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\bin\Debug\netstandard2.0\DevExpress.XamarinForms.Charts.dll
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\bin\Debug\netstandard2.0\DevExpress.XamarinForms.Core.dll
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\Charts.csprojAssemblyReference.cache
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\Charts.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\Charts.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\Charts.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\Charts.csproj.CopyComplete
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\Charts.dll
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\ref\Charts.dll
+C:\Users\Daniel\Desktop\Proyectos\Charts\Charts\Charts\obj\Debug\netstandard2.0\Charts.pdb

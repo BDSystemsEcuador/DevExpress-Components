@@ -1,0 +1,51 @@
+﻿<dxn:TabPage 
+     xmlns="http://xamarin.com/schemas/2014/forms"
+     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     xmlns:local="clr-namespace:XamarinNavigation"
+     xmlns:dxn="http://schemas.devexpress.com/xamarin/2014/forms/navigation" x:DataType="local:MainPage"
+     x:Class="XamarinNavigation.MainPage"
+     HeaderPanelPosition="Bottom"
+     ItemHeaderWidth="*"
+     IsSelectedItemIndicatorVisible="False"
+     ItemHeaderTextColor="#99191919"
+     ItemHeaderIconColor="#99191919"
+     ItemHeaderFontSize="12">
+    
+    <dxn:TabPage.Resources>
+        <Color x:Key="blue600">#1e88e5</Color>
+        <Color x:Key="red600">#e53935</Color>
+        <Color x:Key="green600">#43a047</Color>
+    </dxn:TabPage.Resources>
+    <dxn:TabPageItem SelectedHeaderTextColor="{StaticResource blue600}"
+                         SelectedHeaderIconColor="{StaticResource blue600}">
+        <dxn:TabPageItem.Content>
+            <ContentPage Title="Calendar" Icon="ic_calendar.png">
+                <Label Text="Calendar Here" 
+                                 HorizontalOptions="Center" 
+                                 VerticalOptions="CenterAndExpand"/>
+            </ContentPage>
+        </dxn:TabPageItem.Content>
+    </dxn:TabPageItem>
+
+    <dxn:TabPageItem SelectedHeaderTextColor="{StaticResource green600}"
+                         SelectedHeaderIconColor="{StaticResource green600}">
+        <dxn:TabPageItem.Content>
+            <NavigationPage Title="Mail" Icon="ic_mail.png">
+                <x:Arguments>
+                    <local:InboxPage/>
+                </x:Arguments>
+            </NavigationPage>
+        </dxn:TabPageItem.Content>
+    </dxn:TabPageItem>
+
+    <dxn:TabPageItem SelectedHeaderTextColor="{StaticResource red600}"
+                         SelectedHeaderIconColor="{StaticResource red600}">
+        <dxn:TabPageItem.Content>
+            <ContentPage Title="People" Icon="ic_people.png">
+                <Label Text="People Here" 
+                         HorizontalOptions="Center" 
+                         VerticalOptions="CenterAndExpand"/>
+            </ContentPage>
+        </dxn:TabPageItem.Content>
+    </dxn:TabPageItem>
+</dxn:TabPage>

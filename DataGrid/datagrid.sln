@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datagrid.Android", "datagrid\datagrid.Android\datagrid.Android.csproj", "{AF645A14-1DA0-4B3F-8E28-19F6A0CD19E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datagrid", "datagrid\datagrid\datagrid.csproj", "{64D74BFD-A828-4F9F-B8C4-5D7FDD48D997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF645A14-1DA0-4B3F-8E28-19F6A0CD19E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF645A14-1DA0-4B3F-8E28-19F6A0CD19E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF645A14-1DA0-4B3F-8E28-19F6A0CD19E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AF645A14-1DA0-4B3F-8E28-19F6A0CD19E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF645A14-1DA0-4B3F-8E28-19F6A0CD19E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF645A14-1DA0-4B3F-8E28-19F6A0CD19E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{64D74BFD-A828-4F9F-B8C4-5D7FDD48D997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D74BFD-A828-4F9F-B8C4-5D7FDD48D997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D74BFD-A828-4F9F-B8C4-5D7FDD48D997}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{64D74BFD-A828-4F9F-B8C4-5D7FDD48D997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D74BFD-A828-4F9F-B8C4-5D7FDD48D997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D74BFD-A828-4F9F-B8C4-5D7FDD48D997}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E16B461-AC70-4336-BCAC-84189C9763DA}
+	EndGlobalSection
+EndGlobal
